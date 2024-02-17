@@ -1,0 +1,10 @@
+alias o="xdg-open"
+alias ls="ls -1la --color=auto"
+alias h="cd ~ | clear"
+alias c="clear"
+alias curl="noglob curl"
+alias v="nvim"
+alias tmux="tmux -u"
+#git
+alias gch="git checkout -b"
+alias gs-="git switch -"
