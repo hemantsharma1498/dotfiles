@@ -111,3 +111,7 @@ if [ -f $HOME/.zshrc_aliases ]; then
     source $HOME/.zshrc_aliases
 fi
 alias config='/usr/bin/git --git-dir=/home/hemant/.cfg/ --work-tree=/home/hemant'
+
+[[ -s /home/hemant/.autojump/etc/profile.d/autojump.sh ]] && source /home/hemant/.autojump/etc/profile.d/autojump.sh
+
+autoload -U compinit && compinit -u
